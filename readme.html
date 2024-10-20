@@ -1085,6 +1085,65 @@ calculating the chance of winning</td>
 </tbody>
 </table>
 </div>
+<div id="election-paths" class="section level2">
+<h2>Election paths</h2>
+<p><code>election_paths.csv</code> contains all permutations of the 7
+likeliest tipping point states based on 40,000 simulations from our
+model, along with the probability of every permutation and Kamala
+Harris’ chance of winning the Electoral College in each scenario. It
+includes the following columns:</p>
+<table>
+<colgroup>
+<col width="33%" />
+<col width="66%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Column</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><code>modeldate</code></td>
+<td align="left">Date of the model run</td>
+</tr>
+<tr class="even">
+<td align="left"><code>candidate_inc</code></td>
+<td align="left">Name of the incumbent</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>candidate_chal</code></td>
+<td align="left">Name of the challenger</td>
+</tr>
+<tr class="even">
+<td align="left"><code>candidate_3rd</code></td>
+<td align="left">Name of the third-party candidate</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>AZ</code>, <code>GA</code>, <code>MI</code>,
+<code>NC</code>, <code>NV</code>, <code>PA</code>, <code>WI</code></td>
+<td align="left">Whether Arizona, Georgia, Michigan, North Carolina,
+Nevada, Pennsulvania, and Wisconsin were won by the Democratic or
+Republican candidate in the current scenario</td>
+</tr>
+<tr class="even">
+<td align="left"><code>default_ev_inc</code></td>
+<td align="left">The default number of electoral votes won by the
+incumbent candidate in the current scenario</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>winner_inc</code></td>
+<td align="left">The probability that the incumbent candidate wins the
+Electoral College in the current scenario</td>
+</tr>
+<tr class="even">
+<td align="left"><code>prob</code></td>
+<td align="left">The probability that the current scenario occurs</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 
 
